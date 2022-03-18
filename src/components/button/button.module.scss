@@ -1,0 +1,24 @@
+.button {
+  outline: none;
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+  text-transform: capitalize;
+
+  &:hover {
+    &[data-type="add"] {
+      color: #0fc57c;
+    }
+    &[data-type="edit"] {
+      color: #333;
+    }
+    &[data-type="delete"] {
+      color: #cf2323;
+    }
+  }
+}

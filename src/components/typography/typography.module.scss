@@ -1,0 +1,11 @@
+.typography {
+  font-size: 18px;
+  line-height: 40px;
+  width: 318px;
+  padding: 0 11px 0 11px;
+
+  &[data-completed="true"] {
+    text-decoration: line-through;
+    color: #888;
+  }
+}
